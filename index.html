@@ -1,26 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/css/main.css">
-</head>
-<body>
-    <div class="alert alert-primary" role="alert">
-        A simple primary alert—check it out!
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Examen de modulo-2 trekking</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <!-- menú -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"
+        ><img src="assets/img/Logo.svg" alt="Logo"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Acerca de <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Características</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Precios</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <a href="#">Iniciar sesion</a>
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Registrate
+          </button>
+        </form>
       </div>
+    </nav>
+    <!-- final del menu -->
 
+    <!-- hero section -->
+    <section id="hero-section">
+      <img src="assets/img/bg-hero.svg" class="hero-section__img" alt="" />
+      <div class="hero-section__text">
+        <h1 class="text__titulo">Haz tu trekkig sin parar</h1>
+        <p class="text__contenido">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia et
+          quae alias! Reiciendis voluptatum explicabo dicta doloremque corrupti
+          iusto quae dolorum nihil.
+        </p>
+      </div>
+    </section>
+    <!-- final de hero section -->
 
+    <!-- contenido de caracteristicas -->
+    <section id="caracteristicas">
+      <h2 class="caracteristicas__titulo">Caracteristicas</h2>
+      <!-- padre -->
+      <main class="feature rows">
+        <!-- hijo01 -->
+        <img
+          src="assets/img/bar-graph.svg"
+          class="feature__grafico cols-xs-12 cols-md-12 cols-lg-6 cols-xl-6"
+          alt="caracteristicas"
+        />
 
+        <!-- hijo02 -->
+        <div
+          class="feature-estadisticas cols-xs-12 cols-md-12 cols-lg-6 cols-xl-6"
+        >
+          <h3 class="estadisticas__titulo">
+            Estadisticas de tu progreso
+          </h3>
+          <p class="estadisticas__contenido">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum
+            eaque facere quod consequatur architecto error, quo quia unde cum
+            dolore incidunt reiciendis possimus illo doloremque sed quas.
+          </p>
+        </div>
+      </main>
+    </section>
 
+    <!-- fin del contenido de caracteristicas -->
 
+    <!-- seccion de precios -->
+<!-- padre -->
+    <section class="precios">
+<!-- hijo01 -->
+      <img src="assets/img/bg-price.svg" class="precios__bg" alt="precios" />
+<!-- hijo02 -->
+<div class="cartas">
 
+  <h2 class="cartas__titulo">Precios</h2>
 
-<!-- script de bootstrap -->
-<script src="assets/sass/vendors/bootstrapjs/jquery.slim.min.js"></script>
-<script src="assets/sass/vendors/bootstrapjs/popper.js"></script>
-<script src="assets/sass/vendors/bootstrapjs/bootstrap.min.js"></script>
+  <div class="rows card-deck">
 
-</body>
+    <!-- cards 01 -->
+    <div class="card cols-xs-12 cols-md-6 cols-lg-6">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+        <p class="card-text">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </p>
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>
+      </div>
+    </div>
+
+    <!-- cards 02 -->
+    <div class="card cols-xs-12 cols-md-6 cols-lg-6">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+        <p class="card-text">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </p>
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>
+      </div>
+    </div>
+  </div>
+  
+</div>
+    </section>
+
+    <footer>
+
+      <div class="uno">Legal</div>
+      <div class="dos">Cookies</div>
+      <div class="tres">Sobre anuncios</div>
+      <div class="cuatro">®2018 Trekk-in SPA</div>
+
+    </footer>
+
+    <!-- script de bootstrap -->
+    <script src="assets/sass/vendors/bootstrapjs/jquery.slim.min.js"></script>
+    <script src="assets/sass/vendors/bootstrapjs/popper.js"></script>
+    <script src="assets/sass/vendors/bootstrapjs/bootstrap.min.js"></script>
+  </body>
 </html>

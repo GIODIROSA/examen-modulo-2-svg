@@ -1,0 +1,34 @@
+
+.feature{
+    // width: 100%;
+    padding: 0px 30px;
+}
+
+.feature-estadisticas{
+    .estadisticas__titulo{
+        text-align: center;
+    }
+    
+}
+@media only screen and (min-width: 600px) and (max-width: 992px){
+    #caracteristicas{
+        margin-top: 250px;
+    }
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1980px){
+    .feature{
+        width: 100%;
+        padding: 0 250px;
+    }
+    .feature-estadisticas{
+        .estadisticas__titulo{
+            text-align: left;
+            width: 450px;
+        }
+        .estadisticas__contenido{
+            width: 450px;
+        }
+    }
+}

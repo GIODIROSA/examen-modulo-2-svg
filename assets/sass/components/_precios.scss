@@ -1,0 +1,52 @@
+.precios{
+    position: relative;
+    height: 750px;
+    overflow: hidden;
+
+}
+.cartas{
+    position: absolute;
+    top: 150px;
+    height: 600px;
+    background: $gris-dos;
+    padding: 0px 50px;
+
+}
+
+
+
+// aplicar media queries
+
+@media only screen and (min-width: 768px) and (max-width: 900px){
+    .precios{
+        position: relative;
+        height: 750px;
+        overflow: hidden;
+
+    }
+    .cartas{
+        position: absolute;
+        top: 350px;
+        height: 400px;
+        padding: 0px 100px;
+        
+    
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1980px){
+    .precios{
+        position: relative;
+        height: 750px;
+        overflow: hidden;
+
+    }
+    .cartas{
+        position: absolute;
+        top: 350px;
+        height: 400px;
+        padding: 0px 100px;
+        
+    
+    }
+}

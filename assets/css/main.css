@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*configuracion de varibale*/
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -587,13 +588,6 @@ pre code {
     max-width: 1140px;
   }
 }
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-}
-
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -9907,6 +9901,418 @@ h3 {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6;
+  }
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*version mobile*/
+.hero-section__text {
+  left: 20px;
+}
+.hero-section__text .text__titulo {
+  padding-top: 50px;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.caracteristicas__titulo {
+  padding: 10px 0px 50px 0px;
+  text-align: center;
+}
+
+.rows {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.cols-xs-12 {
+  grid-column: span 12;
+}
+
+.cols-xs-11 {
+  grid-column: span 11;
+}
+
+.cols-xs-10 {
+  grid-column: span 10;
+}
+
+.cols-xs-9 {
+  grid-column: span 9;
+}
+
+.cols-xs-8 {
+  grid-column: span 8;
+}
+
+.cols-xs-7 {
+  grid-column: span 7;
+}
+
+.cols-xs-6 {
+  grid-column: span 6;
+}
+
+.cols-xs-5 {
+  grid-column: span 5;
+}
+
+.cols-xs-4 {
+  grid-column: span 4;
+}
+
+.cols-xs-3 {
+  grid-column: span 3;
+}
+
+.cols-xs-2 {
+  grid-column: span 2;
+}
+
+.cols-xs-1 {
+  grid-column: span 1;
+}
+
+@media (min-width: 576px) {
+  .cols-sm-12 {
+    grid-column: span 12;
+  }
+
+  .cols-sm-11 {
+    grid-column: span 11;
+  }
+
+  .cols-sm-10 {
+    grid-column: span 10;
+  }
+
+  .cols-sm-9 {
+    grid-column: span 9;
+  }
+
+  .cols-sm-8 {
+    grid-column: span 8;
+  }
+
+  .cols-sm-7 {
+    grid-column: span 7;
+  }
+
+  .cols-sm-6 {
+    grid-column: span 6;
+  }
+
+  .cols-sm-5 {
+    grid-column: span 5;
+  }
+
+  .cols-sm-4 {
+    grid-column: span 4;
+  }
+
+  .cols-sm-3 {
+    grid-column: span 3;
+  }
+
+  .cols-sm-2 {
+    grid-column: span 2;
+  }
+
+  .cols-sm-1 {
+    grid-column: span 1;
+  }
+}
+@media (min-width: 768px) {
+  .cols-md-12 {
+    grid-column: span 12;
+  }
+
+  .cols-md-11 {
+    grid-column: span 11;
+  }
+
+  .cols-md-10 {
+    grid-column: span 10;
+  }
+
+  .cols-md-9 {
+    grid-column: span 9;
+  }
+
+  .cols-md-8 {
+    grid-column: span 8;
+  }
+
+  .cols-md-7 {
+    grid-column: span 7;
+  }
+
+  .cols-md-6 {
+    grid-column: span 6;
+  }
+
+  .cols-md-5 {
+    grid-column: span 5;
+  }
+
+  .cols-md-4 {
+    grid-column: span 4;
+  }
+
+  .cols-md-3 {
+    grid-column: span 3;
+  }
+
+  .cols-md-2 {
+    grid-column: span 2;
+  }
+
+  .cols-md-1 {
+    grid-column: span 1;
+  }
+}
+@media (min-width: 992px) {
+  .cols-lg-12 {
+    grid-column: span 12;
+  }
+
+  .cols-lg-11 {
+    grid-column: span 11;
+  }
+
+  .cols-lg-10 {
+    grid-column: span 10;
+  }
+
+  .cols-lg-9 {
+    grid-column: span 9;
+  }
+
+  .cols-lg-8 {
+    grid-column: span 8;
+  }
+
+  .cols-lg-7 {
+    grid-column: span 7;
+  }
+
+  .cols-lg-6 {
+    grid-column: span 6;
+  }
+
+  .cols-lg-5 {
+    grid-column: span 5;
+  }
+
+  .cols-lg-4 {
+    grid-column: span 4;
+  }
+
+  .cols-lg-3 {
+    grid-column: span 3;
+  }
+
+  .cols-lg-2 {
+    grid-column: span 2;
+  }
+
+  .cols-lg-1 {
+    grid-column: span 1;
+  }
+}
+@media (min-width: 1200px) {
+  .cols-xl-12 {
+    grid-column: span 12;
+  }
+
+  .cols-xl-11 {
+    grid-column: span 11;
+  }
+
+  .cols-xl-10 {
+    grid-column: span 10;
+  }
+
+  .cols-xl-9 {
+    grid-column: span 9;
+  }
+
+  .cols-xl-8 {
+    grid-column: span 8;
+  }
+
+  .cols-xl-7 {
+    grid-column: span 7;
+  }
+
+  .cols-xl-6 {
+    grid-column: span 6;
+  }
+
+  .cols-xl-5 {
+    grid-column: span 5;
+  }
+
+  .cols-xl-4 {
+    grid-column: span 4;
+  }
+
+  .cols-xl-3 {
+    grid-column: span 3;
+  }
+
+  .cols-xl-2 {
+    grid-column: span 2;
+  }
+
+  .cols-xl-1 {
+    grid-column: span 1;
+  }
+}
+footer {
+  background: #221d23;
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+}
+
+#hero-section {
+  position: relative;
+  height: 450px;
+}
+
+.hero-section__img {
+  top: 250px;
+  position: relative;
+}
+
+.hero-section__text {
+  top: 0px;
+  width: 300px;
+  text-align: left;
+  position: absolute;
+}
+
+/*media queries aplicados para el ajuste del hero section*/
+@media only screen and (min-width: 992px) and (max-width: 1980px) {
+  #hero-section {
+    position: relative;
+    height: 850px;
+  }
+
+  .hero-section__img {
+    top: 0px;
+    width: 100vw;
+    position: absolute;
+  }
+
+  .hero-section__text {
+    width: 500px;
+    position: absolute;
+    left: 150px;
+  }
+}
+.feature {
+  padding: 0px 30px;
+}
+
+.feature-estadisticas .estadisticas__titulo {
+  text-align: center;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  #caracteristicas {
+    margin-top: 250px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1980px) {
+  .feature {
+    width: 100%;
+    padding: 0 250px;
+  }
+
+  .feature-estadisticas .estadisticas__titulo {
+    text-align: left;
+    width: 450px;
+  }
+  .feature-estadisticas .estadisticas__contenido {
+    width: 450px;
+  }
+}
+.feature__grafico {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+
+.precios__bg {
+  width: 100%;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1980px) {
+  .feature__grafico {
+    padding-top: 20px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1980px) {
+  cartas {
+    padding: 0px 6.25rem;
+  }
+}
+.precios {
+  position: relative;
+  height: 750px;
+  overflow: hidden;
+}
+
+.cartas {
+  position: absolute;
+  top: 150px;
+  height: 600px;
+  background: #333745;
+  padding: 0px 50px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+  .precios {
+    position: relative;
+    height: 750px;
+    overflow: hidden;
+  }
+
+  .cartas {
+    position: absolute;
+    top: 350px;
+    height: 400px;
+    padding: 0px 100px;
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1980px) {
+  .precios {
+    position: relative;
+    height: 750px;
+    overflow: hidden;
+  }
+
+  .cartas {
+    position: absolute;
+    top: 350px;
+    height: 400px;
+    padding: 0px 100px;
   }
 }
 

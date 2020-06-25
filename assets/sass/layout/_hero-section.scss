@@ -1,0 +1,44 @@
+#hero-section{
+    position: relative;
+    height: 450px;
+}
+
+.hero-section__img{
+   top: 250px;
+    position: relative;
+
+
+}
+.hero-section__text{
+  top: 0px;
+  width: 300px;
+  text-align: left;
+    position: absolute;
+   
+}
+
+/*media queries aplicados para el ajuste del hero section*/
+
+@media only screen and (min-width: 992px) and (max-width: 1980px){
+    #hero-section{
+        position: relative;
+    height: 850px;
+
+
+    }
+    
+    .hero-section__img{
+        top: 0px;
+        width: 100vw;
+        position: absolute;
+    
+    
+    }
+    .hero-section__text{
+        width: 500px;
+        position: absolute;
+        // top: 100px;
+        left: 150px;
+    
+    }
+}
