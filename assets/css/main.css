@@ -9939,7 +9939,9 @@ img {
 
 .estadisticas__titulo {
   margin: 0px;
+  text-align: left;
   font-family: "Raleway", sans-serif;
+  font-weight: 700;
   padding-bottom: 50px;
 }
 
@@ -9968,10 +9970,25 @@ footer {
   font-size: 20px;
 }
 
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+  .estadisticas__titulo {
+    padding-left: 40px;
+  }
+
+  .estadisticas__contenido {
+    padding: 0px 60px;
+    margin: 0px;
+  }
+}
 @media only screen and (min-width: 600px) and (max-width: 992px) {
   .estadisticas__contenido {
     margin: 0px;
-    padding: 0px 150px;
+    padding: 0px 85px;
+  }
+
+  .estadisticas__titulo {
+    padding: 20px 0px;
+    text-align: center;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1980px) {
@@ -9979,7 +9996,7 @@ footer {
     left: 20px;
   }
   .hero-section__text .text__titulo {
-    padding: 30px 0px 30px;
+    padding: 10px 0px 30px;
     font-size: 35px;
     font-weight: 700;
     margin: 0px;
@@ -9994,6 +10011,7 @@ footer {
   .estadisticas__titulo {
     margin: 0px;
     font-family: "Raleway", sans-serif;
+    font-weight: 700;
     padding-bottom: 30px;
   }
 
@@ -10288,7 +10306,7 @@ footer {
 @media only screen and (min-width: 992px) and (max-width: 1980px) {
   #hero-section {
     position: relative;
-    height: 850px;
+    height: 650px;
   }
 
   .hero-section__img {
@@ -10309,20 +10327,27 @@ footer {
   padding: 0px 30px;
 }
 
-.feature-estadisticas .estadisticas__titulo {
-  text-align: center;
-}
-
 #caracteristicas {
   height: 650px;
 }
 
-@media only screen and (min-width: 600px) and (max-width: 992px) {
+@media only screen and (min-width: 500px) and (max-width: 599px) {
+  #caracteristicas {
+    padding: 50px 0px;
+    height: 650px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  #caracteristicas {
+    margin-top: 150px;
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1000px) {
   #caracteristicas {
     margin-top: 250px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1980px) {
+@media only screen and (min-width: 1000px) and (max-width: 1499px) {
   .feature {
     width: 100%;
     padding: 0 250px;
@@ -10337,6 +10362,26 @@ footer {
   }
 
   #caracteristicas {
+    margin-top: 100px;
+    height: 350px;
+  }
+}
+@media only screen and (min-width: 1500px) and (max-width: 1980px) {
+  .feature {
+    width: 100%;
+    padding: 0 250px;
+  }
+
+  .feature-estadisticas .estadisticas__titulo {
+    text-align: left;
+    width: 450px;
+  }
+  .feature-estadisticas .estadisticas__contenido {
+    width: 450px;
+  }
+
+  #caracteristicas {
+    margin-top: 180px;
     height: 350px;
   }
 }
@@ -10386,59 +10431,68 @@ footer {
   margin: 0px;
 }
 
-@media only screen and (min-width: 600px) and (max-width: 768px) {
+@media only screen and (min-width: 600px) and (max-width: 700px) {
   .card__linea--ultimo {
-    margin-top: 290px;
+    margin-top: 300px;
   }
 
   .card__linea--ultimo2 {
-    margin-top: 200px;
+    margin-top: 100px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 1980px) {
+@media only screen and (min-width: 700px) and (max-width: 1500px) {
   .cartas {
     height: 800px;
   }
 
   .card__linea--ultimo {
-    margin-top: 190px;
+    margin-top: 170px;
   }
 
   .card__linea--ultimo2 {
-    margin-top: 95px;
+    margin-top: 75px;
   }
 
   .card-body {
     height: 450px;
   }
 }
+@media only screen and (min-width: 1500px) and (max-width: 1980px) {
+  .card__linea--ultimo {
+    margin-top: 170px;
+  }
+
+  .card__linea--ultimo2 {
+    margin-top: 95px;
+  }
+}
 .precios {
   position: relative;
-  height: 1050px;
+  height: 1200px;
   overflow: hidden;
 }
 
 .cartas {
   position: absolute;
   top: 100px;
-  height: 1000px;
+  height: 1100px;
   background: purple;
-  padding: 0px 100px;
+  padding: 0px 80px;
 }
 
 @media only screen and (min-width: 500px) and (max-width: 768px) {
   .precios {
     position: relative;
-    height: 950px;
+    height: 1100px;
     overflow: hidden;
   }
 
   .cartas {
     position: absolute;
-    top: 180px;
-    height: 800px;
+    top: 150px;
+    height: 1000px;
     background: pink;
-    padding: 0px 100px;
+    padding: 0px 120px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 900px) {
@@ -10467,7 +10521,7 @@ footer {
     position: absolute;
     top: 250px;
     height: 700px;
-    padding: 0px 120px;
+    padding: 0px 200px;
     background: #333745;
   }
 }
@@ -10482,7 +10536,7 @@ footer {
     position: absolute;
     top: 250px;
     height: 700px;
-    padding: 0px 200px;
+    padding: 0px 240px;
     background: red;
   }
 }
@@ -10497,7 +10551,7 @@ footer {
     position: absolute;
     top: 270px;
     height: 750px;
-    padding: 0px 320px;
+    padding: 0px 350px;
     background: paleturquoise;
   }
 }

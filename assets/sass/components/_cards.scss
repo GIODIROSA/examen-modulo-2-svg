@@ -8,24 +8,25 @@
         margin: 0px;
     }
 }
-@media only screen and (min-width: 600px) and (max-width: 768px){
+@media only screen and (min-width: 600px) and (max-width: 700px){
     .card__linea--ultimo{
-        margin-top: 290px;
+        margin-top: 300px;
     }
     .card__linea--ultimo2{
-        margin-top: 200px;
+        margin-top: 100px;
     }
+    
 
 }
-@media only screen and (min-width: 768px) and (max-width: 1980px){
+@media only screen and (min-width: 700px) and (max-width: 1500px){
 .cartas{
     height: 800px;
 }
 .card__linea--ultimo{
-    margin-top: 190px;
+    margin-top: 170px;
 }
 .card__linea--ultimo2{
-    margin-top: 95px;
+    margin-top: 75px;
 }
  
     .card-body{
@@ -33,4 +34,13 @@
     }
     
     
+}
+@media only screen and (min-width: 1500px) and (max-width: 1980px){
+    .card__linea--ultimo{
+        margin-top: 170px;
+    }
+    .card__linea--ultimo2{
+        margin-top: 95px;
+    }
+
 }

@@ -14,6 +14,7 @@
        margin: 0px;
    }
   }
+//   tipografia de caracteristicas
 .caracteristicas__titulo{
     padding: 10px 0px 50px 0px;
     text-align: center;
@@ -22,7 +23,9 @@
 }
 .estadisticas__titulo{
     margin: 0px;
+    text-align: left;
     font-family: $family-raleway;
+    font-weight: $sete-ciento;
     padding-bottom: 50px;
 }
 
@@ -58,22 +61,40 @@ footer{
     color: $white-blanco;
     font-size: $large;
 }
+@media only screen and (min-width: 500px) and (max-width: 600px){
+
+    .estadisticas__titulo{
+        padding-left: 40px;
+    }
+    .estadisticas__contenido{
+        padding: 0px 60px;
+        margin: 0px;
+
+    }
+
+}
+
 
 @media only screen and (min-width: 600px) and (max-width: 992px){
 
     .estadisticas__contenido{
         margin: 0px;
-        padding: 0px 150px;
+        padding: 0px 85px;
+    }
+    .estadisticas__titulo{
+        padding: 20px 0px;
+        text-align: center;
     }
 
 }
+
 
 // configuración para desktop
 @media only screen and (min-width: 992px) and (max-width: 1980px){
     .hero-section__text{
         left: 20px;
        .text__titulo{
-           padding: 30px 0px 30px;
+           padding: 10px 0px 30px;
            font-size: $xx-large;
            font-weight: $sete-ciento;
            margin: 0px;
@@ -89,6 +110,7 @@ footer{
       .estadisticas__titulo{
         margin: 0px;
         font-family: $family-raleway;
+    font-weight: $sete-ciento;
         padding-bottom: 30px;
     }
     .estadisticas__contenido{
