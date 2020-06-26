@@ -1,10 +1,36 @@
 
-
-@media only screen and (min-width: 768px) and (max-width: 1980px){
-
-    
-    cartas{
-        padding: 0px 6.25rem;
+.card__linea--ultimo{
+    margin-top: 2rem;
+}
+.card-body{
+    ul{
+        padding: 0px 0px 0px 20px;
+        margin: 0px;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 768px){
+    .card__linea--ultimo{
+        margin-top: 290px;
+    }
+    .card__linea--ultimo2{
+        margin-top: 200px;
     }
 
+}
+@media only screen and (min-width: 768px) and (max-width: 1980px){
+.cartas{
+    height: 800px;
+}
+.card__linea--ultimo{
+    margin-top: 190px;
+}
+.card__linea--ultimo2{
+    margin-top: 95px;
+}
+ 
+    .card-body{
+        height: 450px;
+    }
+    
+    
 }

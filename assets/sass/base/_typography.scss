@@ -2,16 +2,103 @@
 .hero-section__text{
     left: 20px;
    .text__titulo{
-       padding-top: 50px;
-       font-size: $x-large;
-       font-weight: 600;
+       padding: 50px 0px 30px;
+       font-size: $xx-large;
+       font-weight: $sete-ciento;
        margin: 0px;
-
+       text-align: left;
+       font-family: $family-raleway;
    }
-     
+   .text__contenido{
+       text-align: left;
+       margin: 0px;
+   }
   }
 .caracteristicas__titulo{
     padding: 10px 0px 50px 0px;
     text-align: center;
+    font-family: $family-raleway;
+    font-weight: $sete-ciento;
+}
+.estadisticas__titulo{
+    margin: 0px;
+    font-family: $family-raleway;
+    padding-bottom: 50px;
 }
 
+
+// tipografia de titulo de las card
+.cartas__titulo{
+    text-align: center;
+    color: $white-blanco;
+    padding: 30px 0px;
+    font-size: $xx-large;
+    font-weight: $seis-ciento;
+    margin: 0px;
+}
+
+// configuracion interna de las card
+
+.card-title{
+    font-size: $small;
+    font-family: $family-raleway;
+}
+.card-subtitle{
+    font-size: $x-large;
+    text-align: center;
+    font-weight: $seis-ciento;
+
+}
+// listado
+
+
+// tipografia de footer
+
+footer{
+    color: $white-blanco;
+    font-size: $large;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px){
+
+    .estadisticas__contenido{
+        margin: 0px;
+        padding: 0px 150px;
+    }
+
+}
+
+// configuración para desktop
+@media only screen and (min-width: 992px) and (max-width: 1980px){
+    .hero-section__text{
+        left: 20px;
+       .text__titulo{
+           padding: 30px 0px 30px;
+           font-size: $xx-large;
+           font-weight: $sete-ciento;
+           margin: 0px;
+           text-align: left;
+           font-family: $family-raleway;
+       }
+       .text__contenido{
+           text-align: left;
+           margin: 0px;
+       } 
+      }
+     
+      .estadisticas__titulo{
+        margin: 0px;
+        font-family: $family-raleway;
+        padding-bottom: 30px;
+    }
+    .estadisticas__contenido{
+        margin: 0px;
+        width: 250px;
+    }
+    footer{
+        color: $white-blanco;
+        font-size: $small;
+    }
+    
+
+}

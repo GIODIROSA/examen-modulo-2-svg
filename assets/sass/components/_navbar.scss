@@ -1,1 +1,17 @@
 // configuracion de navbar
+.navbar{
+    padding: 0px 50px;
+}
+.navbar-toggler{
+
+    border: none !important;
+}
+
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1980px){
+    .navbar{
+        padding: 10px 150px;
+    }
+
+}

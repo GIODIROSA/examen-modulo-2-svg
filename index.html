@@ -4,16 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Examen de modulo-2 trekking</title>
+    <!-- mis estilos -->
     <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- mis fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet"> 
   </head>
   <body>
     <!-- menú -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg">
       <a class="navbar-brand" href="#"
         ><img src="assets/img/Logo.svg" alt="Logo"
       /></a>
       <button
-        class="navbar-toggler"
+        class="navbar-toggler navbar-light"
         type="button"
         data-toggle="collapse"
         data-target="#navbarSupportedContent"
@@ -27,21 +30,21 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#"
+            <a class="nav-link text-dark" href="#"
               >Acerca de <span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Características</a>
+            <a class="nav-link text-dark" href="#">Características</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Precios</a>
+            <a class="nav-link text-dark" href="#">Precios</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-          <a href="#">Iniciar sesion</a>
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-            Registrate
+          <a href="#" class="text-dark">Iniciar sesion</a>
+          <button class="btn bg-info text-white my-2 my-sm-0" type="submit">
+            Registrarte
           </button>
         </form>
       </div>
@@ -54,9 +57,7 @@
       <div class="hero-section__text">
         <h1 class="text__titulo">Haz tu trekkig sin parar</h1>
         <p class="text__contenido">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia et
-          quae alias! Reiciendis voluptatum explicabo dicta doloremque corrupti
-          iusto quae dolorum nihil.
+          Con trekk-in te despreocuparás de la estimación de tu viaje, ya que con unos simples pasos podrás definir la mejor ruta a tomar con tus compaers de expedición.
         </p>
       </div>
     </section>
@@ -64,7 +65,7 @@
 
     <!-- contenido de caracteristicas -->
     <section id="caracteristicas">
-      <h2 class="caracteristicas__titulo">Caracteristicas</h2>
+      <h2 class="caracteristicas__titulo">Características</h2>
       <!-- padre -->
       <main class="feature rows">
         <!-- hijo01 -->
@@ -79,12 +80,10 @@
           class="feature-estadisticas cols-xs-12 cols-md-12 cols-lg-6 cols-xl-6"
         >
           <h3 class="estadisticas__titulo">
-            Estadisticas de tu progreso
+          Estadísticas de tu progreso
           </h3>
           <p class="estadisticas__contenido">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum
-            eaque facere quod consequatur architecto error, quo quia unde cum
-            dolore incidunt reiciendis possimus illo doloremque sed quas.
+         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore doloremque iure soluta fugiat hic neque minus totam autem repellendus voluptatibus.
           </p>
         </div>
       </main>
@@ -105,30 +104,39 @@
   <div class="rows card-deck">
 
     <!-- cards 01 -->
-    <div class="card cols-xs-12 cols-md-6 cols-lg-6">
+    <div class="card cols-xs-12 cols-sm-6 cols-md-6 cols-lg-6">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+        <h5 class="card-title">Trekk-in free</h5>
+        <h6 class="card-subtitle text-dark mb-2">$0/mes</h6>
+        <hr>
         <p class="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          <ul>
+            <li>Ver mapas creado por usuarios</li>
+            <li>Concetar con otros usuarios</li>
+          </ul>
         </p>
-        <a href="#" class="card-link">Card link</a>
-        <a href="#" class="card-link">Another link</a>
+        <hr class="card__linea--ultimo">
+        <button type="button" class="card__button btn btn-info btn-lg btn-block">Obtén Free</button>
       </div>
     </div>
 
     <!-- cards 02 -->
-    <div class="card cols-xs-12 cols-md-6 cols-lg-6">
+    <div class="card cols-xs-12 cols-sm-6 cols-md-6 cols-lg-6">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+        <h5 class="card-title">Trekk-in free</h5>
+        <h6 class="card-subtitle mb-2 text-dark">$3500/mes</h6>
+        <hr>
         <p class="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          <ul card__lista>
+            <li>Ver mapas creado por usuarios</li>
+            <li>Concetar con otros usuarios</li>
+            <li>Definir mejores rutas</li>
+            <li>mapas offline</li>
+            <li>integración con otras aplicaciones</li>
+          </ul>
         </p>
-        <a href="#" class="card-link">Card link</a>
-        <a href="#" class="card-link">Another link</a>
+        <hr class="card__linea--ultimo2">
+        <button type="button" class="card__button btn btn-info btn-lg btn-block ">Obtén premium</button>
       </div>
     </div>
   </div>
