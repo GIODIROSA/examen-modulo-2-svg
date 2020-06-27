@@ -1,0 +1,13 @@
+.feature__grafico{
+    animation-name: grafica;
+    animation-duration: 2s;
+}
+.feature__grafico{
+  animation: grafica 3s ease-in-out infinite;
+}
+
+@keyframes grafica{
+    from {opacity: 1;}
+  to {opacity: 0.0;}
+   
+}

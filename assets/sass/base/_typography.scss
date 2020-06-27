@@ -75,7 +75,7 @@ footer{
 }
 
 
-@media only screen and (min-width: 600px) and (max-width: 992px){
+@media only screen and (min-width: 600px) and (max-width: 900px){
 
     .estadisticas__contenido{
         margin: 0px;
@@ -90,7 +90,7 @@ footer{
 
 
 // configuración para desktop
-@media only screen and (min-width: 992px) and (max-width: 1980px){
+@media only screen and (min-width: 900px) and (max-width: 1500px){
     .hero-section__text{
         left: 20px;
        .text__titulo{
@@ -107,11 +107,44 @@ footer{
        } 
       }
      
-      .estadisticas__titulo{
+    .estadisticas__titulo{
         margin: 0px;
         font-family: $family-raleway;
     font-weight: $sete-ciento;
-        padding-bottom: 30px;
+        padding: 40px 0px;
+    }
+    .estadisticas__contenido{
+        margin: 0px;
+    }
+    footer{
+        color: $white-blanco;
+        font-size: $small;
+    }
+    
+
+}
+@media only screen and (min-width: 1500px) and (max-width: 1980px){
+    .hero-section__text{
+        left: 20px;
+       .text__titulo{
+           padding: 10px 0px 30px;
+           font-size: $xx-large;
+           font-weight: $sete-ciento;
+           margin: 0px;
+           text-align: left;
+           font-family: $family-raleway;
+       }
+       .text__contenido{
+           text-align: left;
+           margin: 0px;
+       } 
+      }
+     
+    .estadisticas__titulo{
+        margin: 0px;
+        font-family: $family-raleway;
+    font-weight: $sete-ciento;
+        padding: 40px 0px;
     }
     .estadisticas__contenido{
         margin: 0px;

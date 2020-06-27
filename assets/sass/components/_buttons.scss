@@ -9,3 +9,19 @@
 .card__button{
     font-size: $x-small;
 }
+
+// configuracion de estado de los botones
+
+.registrate{
+    background: $aquamarine-uno;
+    border: 0px;
+    padding: 5px 10px;
+border-radius: 5px;
+    &:hover{
+        background: $aquamarine-tres;
+    }
+    &:focus{
+        background: $platinium;
+
+    }
+}

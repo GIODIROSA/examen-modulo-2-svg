@@ -4281,9 +4281,6 @@ input[type=button].btn-block {
   color: rgba(255, 255, 255, 0.5);
   border-color: rgba(255, 255, 255, 0.1);
 }
-.navbar-dark .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
 .navbar-dark .navbar-text {
   color: rgba(255, 255, 255, 0.5);
 }
@@ -9980,7 +9977,7 @@ footer {
     margin: 0px;
   }
 }
-@media only screen and (min-width: 600px) and (max-width: 992px) {
+@media only screen and (min-width: 600px) and (max-width: 900px) {
   .estadisticas__contenido {
     margin: 0px;
     padding: 0px 85px;
@@ -9991,7 +9988,7 @@ footer {
     text-align: center;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1980px) {
+@media only screen and (min-width: 900px) and (max-width: 1500px) {
   .hero-section__text {
     left: 20px;
   }
@@ -10012,7 +10009,40 @@ footer {
     margin: 0px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
-    padding-bottom: 30px;
+    padding: 40px 0px;
+  }
+
+  .estadisticas__contenido {
+    margin: 0px;
+  }
+
+  footer {
+    color: #fff;
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 1500px) and (max-width: 1980px) {
+  .hero-section__text {
+    left: 20px;
+  }
+  .hero-section__text .text__titulo {
+    padding: 10px 0px 30px;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0px;
+    text-align: left;
+    font-family: "Raleway", sans-serif;
+  }
+  .hero-section__text .text__contenido {
+    text-align: left;
+    margin: 0px;
+  }
+
+  .estadisticas__titulo {
+    margin: 0px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    padding: 40px 0px;
   }
 
   .estadisticas__contenido {
@@ -10023,6 +10053,23 @@ footer {
   footer {
     color: #fff;
     font-size: 14px;
+  }
+}
+.feature__grafico {
+  animation-name: grafica;
+  animation-duration: 2s;
+}
+
+.feature__grafico {
+  animation: grafica 3s ease-in-out infinite;
+}
+
+@keyframes grafica {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
   }
 }
 .rows {
@@ -10393,6 +10440,19 @@ footer {
   font-size: 12px;
 }
 
+.registrate {
+  background: #2ab7ca;
+  border: 0px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.registrate:hover {
+  background: #b1e4eb;
+}
+.registrate:focus {
+  background: #e8e8e8;
+}
+
 .feature__grafico {
   display: block;
   margin-left: auto;
@@ -10426,6 +10486,9 @@ footer {
   margin-top: 2rem;
 }
 
+.card-body:hover {
+  box-shadow: 10px 5px 10px #221d23;
+}
 .card-body ul {
   padding: 0px 0px 0px 20px;
   margin: 0px;
@@ -10459,7 +10522,7 @@ footer {
 }
 @media only screen and (min-width: 1500px) and (max-width: 1980px) {
   .card__linea--ultimo {
-    margin-top: 170px;
+    margin-top: 190px;
   }
 
   .card__linea--ultimo2 {
@@ -10476,7 +10539,7 @@ footer {
   position: absolute;
   top: 100px;
   height: 1100px;
-  background: purple;
+  background: #333745;
   padding: 0px 80px;
 }
 
@@ -10491,7 +10554,7 @@ footer {
     position: absolute;
     top: 150px;
     height: 1000px;
-    background: pink;
+    background: #333745;
     padding: 0px 120px;
   }
 }
@@ -10504,7 +10567,7 @@ footer {
 
   .cartas {
     position: absolute;
-    top: 180px;
+    top: 160px;
     height: 600px;
     padding: 0px 100px;
     background: #333745;
@@ -10537,7 +10600,7 @@ footer {
     top: 250px;
     height: 700px;
     padding: 0px 240px;
-    background: red;
+    background: #333745;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
@@ -10552,7 +10615,7 @@ footer {
     top: 270px;
     height: 750px;
     padding: 0px 350px;
-    background: paleturquoise;
+    background: #333745;
   }
 }
 @media only screen and (min-width: 1400px) and (max-width: 1500px) {
@@ -10567,7 +10630,7 @@ footer {
     top: 300px;
     height: 750px;
     padding: 0px 420px;
-    background: hotpink;
+    background: #333745;
   }
 }
 @media only screen and (min-width: 1500px) and (max-width: 1980px) {
@@ -10581,7 +10644,7 @@ footer {
     position: absolute;
     top: 250px;
     height: 400px;
-    padding: 0px 400px;
+    padding: 0px 450px;
     background: transparent;
   }
 }
