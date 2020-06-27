@@ -1,9 +1,36 @@
 footer{
     background: $gris-cinco;
+    height: 250px;
+  
+
+}
+.final{
     height: 150px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
+
+}
+.cuatro{
+    text-align: center;
+}
+
+// aplicar media queries para el footer
+
+@media only screen and (min-width: 992px) and (max-width: 1980px){
+
+    footer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .final{
+        .uno, .dos, .tres{
+            padding: 20px;
+        }
+        
+    }
+
 
 }

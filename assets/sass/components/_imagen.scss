@@ -1,3 +1,5 @@
+// configuración de la imagen grafico
+
 .feature__grafico{
     display: block;
     margin-left: auto;
@@ -9,10 +11,11 @@
     width: 100%;
 }
 
+// modificaciones para la pantalla 900
 @media only screen and (min-width: 900px) and (max-width: 1980px){
 
     .feature__grafico{
-        padding-top: 20px;
+padding: 20px 20px;
     }
 
 
